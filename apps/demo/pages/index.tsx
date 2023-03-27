@@ -3,7 +3,7 @@ import { api } from '@nextorg2/api';
 export function Index() {
   return (
     <>
-      <p>{api()}</p>
+      <p>{api().message}</p>
       < Ui />
     </>
   );
